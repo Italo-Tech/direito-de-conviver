@@ -6,6 +6,8 @@ import HowItWorks from './components/HowItWorks'
 import About from './components/About'
 import Stats from './components/Stats'
 import Judiciary from './components/Judiciary'
+import MinisterioPublico from './components/MinisterioPublico'
+import FamiliaConflitos from './components/FamiliaConflitos'
 import FAQ from './components/FAQ'
 import CTA from './components/CTA'
 import Footer from './components/Footer'
@@ -21,6 +23,8 @@ function App() {
         <About />
         <Stats />
         <Judiciary />
+        <MinisterioPublico />
+        <FamiliaConflitos />
         <FAQ />
         <CTA />
       </main>

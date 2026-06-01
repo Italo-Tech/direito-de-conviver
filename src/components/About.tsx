@@ -1,17 +1,17 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 
-const ABOUT_IMG = 'https://images.unsplash.com/photo-1491013516836-7db643ee125a?w=700&q=80'
+const ABOUT_IMG = '../../public/historia.png'
 
 export default function About() {
   const ref = useScrollAnimation()
 
   return (
     <section id="quem-somos" className="py-0 bg-[#F5F5F5]" ref={ref}>
-      <div className="max-w-7xl mx-auto">
+      <div className="mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[520px]">
 
           {/* Image */}
-          <div className="reveal relative overflow-hidden min-h-[320px] lg:min-h-0">
+          <div className="reveal relative overflow-hidden min-h-[340px] lg:min-h-0">
             <img
               src={ABOUT_IMG}
               alt="Mãos adultas formando teto sobre família de papel, representando proteção"
