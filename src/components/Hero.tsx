@@ -12,7 +12,7 @@ const slides = [
     cta2: { label: 'Falar Conosco', href: '#contato' },
   },
   {
-    image: 'https://images.unsplash.com/photo-1543342384-1f1350e27861?w=1600&q=80',
+    image: '../../public/banner-2.jpg',
     tag: 'Direito de Conviver',
     title: 'DIREITO DE CONVIVER',
     subtitle: 'O direito que conecta. O respeito que protege.',
@@ -22,7 +22,7 @@ const slides = [
     cta2: { label: 'Saiba Mais', href: '#quem-somos' },
   },
   {
-    image: 'https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=1600&q=80',
+    image: '../../public/banner-3.jpg',
     tag: 'Área do Judiciário',
     title: 'PARCERIA COM O JUDICIÁRIO',
     subtitle: 'Relatórios técnicos e acompanhamento especializado.',
