@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react'
 
 const slides = [
   {
-    image: '../../public/banner-1.png',
+    image: '/banner-1.png',
     tag: 'Nossos Serviços',
     title: 'TRANSPORTE ASSISTIDO FAMILIAR',
     subtitle: 'Segurança e cuidado em cada trajeto.',
@@ -12,7 +12,7 @@ const slides = [
     cta2: { label: 'Falar Conosco', href: '#contato' },
   },
   {
-    image: '../../public/banner-2.jpg',
+    image: '/banner-2.jpg',
     tag: 'Direito de Conviver',
     title: 'DIREITO DE CONVIVER',
     subtitle: 'O direito que conecta. O respeito que protege.',
@@ -22,7 +22,7 @@ const slides = [
     cta2: { label: 'Saiba Mais', href: '#quem-somos' },
   },
   {
-    image: '../../public/banner-3.jpg',
+    image: '/banner-3.jpg',
     tag: 'Área do Judiciário',
     title: 'PARCERIA COM O JUDICIÁRIO',
     subtitle: 'Relatórios técnicos e acompanhamento especializado.',

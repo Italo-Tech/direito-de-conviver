@@ -1,6 +1,6 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 
-const ABOUT_IMG = '../../public/historia.png'
+const ABOUT_IMG = '/historia.png'
 
 export default function About() {
   const ref = useScrollAnimation()
