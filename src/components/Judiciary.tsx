@@ -93,7 +93,7 @@ export default function Judiciary() {
               className="text-sm leading-relaxed mb-6"
               style={{ color: 'var(--gray-text)', fontFamily: 'var(--font-sans)' }}
             >
-              O direito de Conviver é parceira de órgãos e profissionais que atuam na garantia dos direitos da criança e do adolescente. Atuamos junto a:
+              O direito de <span className="brand-name">Conviver</span> é parceira de órgãos e profissionais que atuam na garantia dos direitos da criança e do adolescente. Atuamos junto a:
             </p>
             <ul className="flex flex-col gap-2 mb-7">
               {partners.map((p) => (

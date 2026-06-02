@@ -56,14 +56,14 @@ export default function Historia() {
               className="reveal reveal-delay-1 text-3xl md:text-4xl font-bold leading-snug"
               style={{ fontFamily: 'var(--font-serif)', color: 'var(--navy)' }}
             >
-              Como Nasceu o Direito de Conviver
+              Como Nasceu o Direito de <span className="brand-name">Conviver</span>
             </h2>
 
             <p
               className="reveal reveal-delay-2 text-sm leading-relaxed"
               style={{ color: 'var(--gray-text)', fontFamily: 'var(--font-sans)' }}
             >
-              O Projeto Direito de Conviver nasceu da experiência real de um pai chamado <strong>Miguel</strong>. Sua história representa a realidade enfrentada diariamente por milhares de pais e famílias nas Varas da Família de todo o Brasil: conflitos familiares, falsas acusações, alienação parental, descumprimento de decisões judiciais e medidas protetivas que impactam diretamente a convivência familiar — uma realidade muitas vezes silenciosa.
+              O Projeto Direito de <span className="brand-name">Conviver</span> nasceu da experiência real de um pai chamado <strong>Miguel</strong>. Sua história representa a realidade enfrentada diariamente por milhares de pais e famílias nas Varas da Família de todo o Brasil: conflitos familiares, falsas acusações, alienação parental, descumprimento de decisões judiciais e medidas protetivas que impactam diretamente a convivência familiar — uma realidade muitas vezes silenciosa.
             </p>
 
             <p
@@ -77,7 +77,7 @@ export default function Historia() {
               className="reveal reveal-delay-3 text-sm leading-relaxed"
               style={{ color: 'var(--gray-text)', fontFamily: 'var(--font-sans)' }}
             >
-              Durante essa trajetória, Miguel compreendeu que o sofrimento não era apenas seu. <strong>Milhares de crianças e adolescentes também são privados do direito fundamental de manter vínculos afetivos saudáveis</strong> com ambos os pais e suas famílias. Foi dessa reflexão que surgiu o Projeto Direito de Conviver — transformando dor em propósito, para que nenhuma criança seja privada do direito de conviver com sua família.
+              Durante essa trajetória, Miguel compreendeu que o sofrimento não era apenas seu. <strong>Milhares de crianças e adolescentes também são privados do direito fundamental de manter vínculos afetivos saudáveis</strong> com ambos os pais e suas famílias. Foi dessa reflexão que surgiu o Projeto Direito de <span className="brand-name">Conviver</span> — transformando dor em propósito, para que nenhuma criança seja privada do direito de conviver com sua família.
             </p>
 
             {/* Objective list */}

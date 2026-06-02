@@ -68,7 +68,7 @@ export default function MinisterioPublico() {
             className="mt-4 text-sm max-w-xl mx-auto"
             style={{ color: '#94a3b8', fontFamily: 'var(--font-sans)' }}
           >
-            O direito de Conviver fortalece a atuação do Ministério Público na defesa dos direitos da criança e do adolescente, oferecendo suporte técnico especializado.
+            O direito de <span className="brand-name">Conviver</span> fortalece a atuação do Ministério Público na defesa dos direitos da criança e do adolescente, oferecendo suporte técnico especializado.
           </p>
         </div>
 

@@ -215,7 +215,7 @@ export default function Footer() {
           style={{ borderColor: 'rgba(255,255,255,0.1)' }}
         >
           <p className="text-xs" style={{ color: '#64748b', fontFamily: 'var(--font-sans)' }}>
-            © {new Date().getFullYear()} Conviver — Todos os direitos reservados.
+            © {new Date().getFullYear()} <span className="brand-name">CONVIVER</span> — Todos os direitos reservados.
           </p>
           <p className="text-xs" style={{ color: '#64748b', fontFamily: 'var(--font-sans)' }}>
             Desenvolvido com ❤️ para conexões que protegem.

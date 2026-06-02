@@ -1,4 +1,5 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
+import { hl } from '../utils/brand'
 
 const steps = [
   {
@@ -135,7 +136,7 @@ export default function HowItWorks() {
                   className="font-bold text-base mb-2 leading-snug"
                   style={{ color: 'var(--navy)', fontFamily: 'var(--font-serif)' }}
                 >
-                  {step.title}
+                  {hl(step.title)}
                 </h3>
                 <p
                   className="text-sm leading-relaxed"

@@ -78,7 +78,7 @@ export default function PublicoAlvo() {
             className="text-sm max-w-xl mx-auto"
             style={{ color: 'var(--gray-text)', fontFamily: 'var(--font-sans)' }}
           >
-            O Direito de Conviver destina-se a crianças, adolescentes e famílias que necessitem de apoio especializado para o cumprimento de decisões judiciais relacionadas à convivência familiar.
+            O Direito de <span className="brand-name">Conviver</span> destina-se a crianças, adolescentes e famílias que necessitem de apoio especializado para o cumprimento de decisões judiciais relacionadas à convivência familiar.
           </p>
         </div>
 

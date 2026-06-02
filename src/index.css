@@ -92,6 +92,14 @@ body {
   animation: waPulse 2s infinite;
 }
 
+/* ── Brand name highlight ── */
+.brand-name {
+  color: var(--gold);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
 /* ── Hero carousel content enter ── */
 @keyframes heroContentEnter {
   from {

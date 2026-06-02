@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
+import { hl } from '../utils/brand'
 
 const faqs = [
   {
@@ -64,7 +65,7 @@ function FAQItem({ question, answer, isOpen, onToggle }: {
           className="text-base font-semibold leading-snug"
           style={{ color: 'var(--navy)', fontFamily: 'var(--font-sans)' }}
         >
-          {question}
+          {hl(question)}
         </span>
         <svg
           className="w-5 h-5 flex-shrink-0 mt-0.5 transition-transform duration-300"
@@ -85,7 +86,7 @@ function FAQItem({ question, answer, isOpen, onToggle }: {
           className="pb-5 text-sm leading-relaxed"
           style={{ color: 'var(--gray-text)', fontFamily: 'var(--font-sans)' }}
         >
-          {answer}
+          {hl(answer)}
         </p>
       </div>
     </div>

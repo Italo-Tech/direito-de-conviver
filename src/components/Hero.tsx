@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
+import { hl } from '../utils/brand'
 
 const slides = [
   {
@@ -179,7 +180,7 @@ export default function Hero() {
               textShadow: '0 1px 4px rgba(0,0,0,0.4)',
             }}
           >
-            {slide.description}
+            {hl(slide.description)}
           </p>
 
           {/* CTAs */}
