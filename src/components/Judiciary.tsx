@@ -1,6 +1,6 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 
-const JUDICIARY_IMG = 'https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=800&q=80'
+const JUDICIARY_IMG = 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80'
 
 const partners = [
   'Varas da Família',
@@ -67,7 +67,7 @@ export default function Judiciary() {
           <div className="reveal rounded-2xl overflow-hidden shadow-xl h-80 lg:h-96">
             <img
               src={JUDICIARY_IMG}
-              alt="Balança da justiça"
+              alt="Profissional em reunião de suporte familiar"
               className="w-full h-full object-cover"
             />
           </div>

@@ -4,6 +4,8 @@ import Hero from './components/Hero'
 import Services from './components/Services'
 import HowItWorks from './components/HowItWorks'
 import About from './components/About'
+import Historia from './components/Historia'
+import PublicoAlvo from './components/PublicoAlvo'
 import Stats from './components/Stats'
 import Judiciary from './components/Judiciary'
 import MinisterioPublico from './components/MinisterioPublico'
@@ -21,6 +23,8 @@ function App() {
         <Services />
         <HowItWorks />
         <About />
+        <Historia />
+        <PublicoAlvo />
         <Stats />
         <Judiciary />
         <MinisterioPublico />

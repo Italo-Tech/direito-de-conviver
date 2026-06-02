@@ -2,32 +2,32 @@ import { useState, useEffect, useCallback } from 'react'
 
 const slides = [
   {
-    image: '/banner-1.png',
-    tag: 'Nossos Serviços',
-    title: 'TRANSPORTE ASSISTIDO FAMILIAR',
-    subtitle: 'Segurança e cuidado em cada trajeto.',
-    description:
-      'Realizamos o transporte seguro de crianças e adolescentes para visitas familiares, acompanhados por profissionais capacitados e respeitando integralmente as determinações judiciais.',
-    cta1: { label: 'Conhecer os Serviços', href: '#servicos' },
-    cta2: { label: 'Falar Conosco', href: '#contato' },
-  },
-  {
-    image: '/banner-2.jpg',
-    tag: 'Direito de Conviver',
+    image: 'https://images.unsplash.com/photo-1543342384-1f1350e27861?w=1600&q=80',
+    tag: 'Famílias que Precisam de Apoio',
     title: 'DIREITO DE CONVIVER',
-    subtitle: 'O direito que conecta. O respeito que protege.',
+    subtitle: 'Garantindo o vínculo entre pais e filhos.',
     description:
-      'A CONVIVER atua na promoção da convivência familiar segura e no cumprimento de determinações judiciais, oferecendo transporte assistido e intermediação de convívio com ética, imparcialidade e respeito.',
+      'A CONVIVER apoia famílias em processos judiciais envolvendo crianças e adolescentes, assegurando convivência familiar segura, humanizada e em conformidade com as determinações judiciais.',
     cta1: { label: 'Solicitar Atendimento', href: '#contato' },
     cta2: { label: 'Saiba Mais', href: '#quem-somos' },
   },
   {
-    image: '/banner-3.jpg',
-    tag: 'Área do Judiciário',
-    title: 'PARCERIA COM O JUDICIÁRIO',
-    subtitle: 'Relatórios técnicos e acompanhamento especializado.',
+    image: 'https://images.unsplash.com/photo-1476703993599-0035a21b17a9?w=1600&q=80',
+    tag: 'Nossa Missão',
+    title: 'CADA CRIANÇA MERECE ESTAR COM SUA FAMÍLIA',
+    subtitle: 'Presença segura em cada reencontro.',
     description:
-      'Somos parceiros do Poder Judiciário, do Ministério Público e da Defensoria Pública, elaborando relatórios técnicos objetivos e imparciais para apoio às decisões que protegem crianças e adolescentes.',
+      'Realizamos o transporte assistido e o acompanhamento de crianças durante visitas familiares, garantindo segurança e bem-estar em cada encontro — com profissionalismo e cuidado humano.',
+    cta1: { label: 'Como Funciona', href: '#como-funciona' },
+    cta2: { label: 'Falar Conosco', href: '#contato' },
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1609220136736-443140cffec6?w=1600&q=80',
+    tag: 'Suporte Judicial',
+    title: 'FAMÍLIAS UNIDAS PELO DIREITO',
+    subtitle: 'Técnica, ética e comprometimento com a família.',
+    description:
+      'Atuamos em conformidade com o Judiciário, o Ministério Público e a Defensoria Pública, sempre com o objetivo de proteger e fortalecer os vínculos familiares de crianças e adolescentes.',
     cta1: { label: 'Área do Judiciário', href: '#judiciario' },
     cta2: { label: 'Entre em Contato', href: '#contato' },
   },

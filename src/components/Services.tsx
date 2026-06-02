@@ -9,43 +9,52 @@ const services = [
       </svg>
     ),
     title: 'Transporte Assistido Familiar',
-    description: 'Realizamos o transporte seguro de crianças e adolescentes para visitas familiares, seguindo as determinações judiciais.',
+    description: 'Transporte seguro de crianças e adolescentes para visitas familiares, com profissional acompanhante e seguindo rigorosamente as determinações judiciais.',
   },
   {
     icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+      </svg>
+    ),
+    title: 'Entrega Protegida entre Genitores',
+    description: 'Realização da entrega e retirada da criança de forma segura e neutra, evitando o contato direto entre genitores em conflito e prevenindo incidentes.',
+  },
+  {
+    icon: (
+      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
       </svg>
     ),
     title: 'Intermediação de Convivência',
-    description: 'Facilitamos a convivência familiar de forma neutra e profissional, promovendo um ambiente seguro, respeitoso e acolhedor.',
+    description: 'Facilitamos a convivência familiar com presença profissional neutra e imparcial, promovendo um ambiente seguro e respeitoso para a criança.',
   },
   {
     icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-      </svg>
-    ),
-    title: 'Relatórios para o Judiciário',
-    description: 'Elaboramos relatórios técnicos objetivos e imparciais para apoio ao Poder Judiciário e órgãos competentes.',
-  },
-  {
-    icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
       </svg>
     ),
-    title: 'Acompanhamento de Visitas',
-    description: 'Acompanhamento profissional durante visitas supervisionadas, sempre com foco na segurança da criança.',
+    title: 'Acompanhamento de Visitas Supervisionadas',
+    description: 'Acompanhamento profissional durante visitas supervisionadas determinadas judicialmente, com registro detalhado de cada encontro.',
   },
   {
     icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
       </svg>
     ),
-    title: 'Apoio ao Cumprimento Judicial',
-    description: 'Atuamos no cumprimento de decisões judiciais, acordos homologados e planos de convivência familiar.',
+    title: 'Apoio em Medidas Protetivas',
+    description: 'Suporte operacional especializado em casos com medidas protetivas vigentes, garantindo o cumprimento das determinações sem exposição da criança ao conflito.',
+  },
+  {
+    icon: (
+      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+      </svg>
+    ),
+    title: 'Registros e Relatórios Operacionais',
+    description: 'Elaboração de registros detalhados e relatórios técnicos objetivos para subsidiar decisões do Judiciário, MP e Defensoria Pública.',
   },
 ]
 
@@ -77,11 +86,11 @@ export default function Services() {
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, i) => (
             <div
               key={service.title}
-              className={`service-card reveal reveal-delay-${i + 1} border-2 rounded-xl p-7 flex flex-col items-center text-center cursor-default`}
+              className={`service-card reveal reveal-delay-${Math.min(i + 1, 5)} border-2 rounded-xl p-7 flex flex-col items-center text-center cursor-default`}
               style={{ borderColor: '#e5e7eb' }}
             >
               {/* Icon circle */}
