@@ -43,7 +43,7 @@ export default function MinisterioPublico() {
   const ref = useScrollAnimation()
 
   return (
-    <section className="py-24" style={{ backgroundColor: 'var(--navy)' }} ref={ref}>
+    <section id="ministerio-publico" className="py-24" style={{ backgroundColor: 'var(--navy)' }} ref={ref}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Header */}
@@ -68,7 +68,7 @@ export default function MinisterioPublico() {
             className="mt-4 text-sm max-w-xl mx-auto"
             style={{ color: '#94a3b8', fontFamily: 'var(--font-sans)' }}
           >
-            A Conviver fortalece a atuação do Ministério Público na defesa dos direitos da criança e do adolescente, oferecendo suporte técnico especializado.
+            O direito de Conviver fortalece a atuação do Ministério Público na defesa dos direitos da criança e do adolescente, oferecendo suporte técnico especializado.
           </p>
         </div>
 

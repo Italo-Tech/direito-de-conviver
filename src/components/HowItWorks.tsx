@@ -157,7 +157,9 @@ export default function HowItWorks() {
             Precisa de atendimento ou tem dúvidas sobre o processo?
           </p>
           <a
-            href="#contato"
+            href="https://wa.me/5511940803060"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 rounded-md text-white font-bold text-sm hover:opacity-90 transition-opacity whitespace-nowrap"
             style={{ backgroundColor: 'var(--navy)', fontFamily: 'var(--font-sans)' }}
           >

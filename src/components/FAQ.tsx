@@ -15,10 +15,10 @@ const faqs = [
   {
     question: 'O que são visitas supervisionadas e como funcionam?',
     answer:
-      'Visitas supervisionadas são encontros familiares que ocorrem na presença de um profissional capacitado e imparcial da Conviver. Esse acompanhamento garante a segurança da criança ou adolescente e o cumprimento das condições estabelecidas judicialmente, com elaboração de relatório ao final de cada visita.',
+      'Visitas supervisionadas são encontros familiares que ocorrem na presença de um profissional capacitado e imparcial do direito de Conviver. Esse acompanhamento garante a segurança da criança ou adolescente e o cumprimento das condições estabelecidas judicialmente, com elaboração de relatório ao final de cada visita.',
   },
   {
-    question: 'A Conviver atua em toda a Grande São Paulo?',
+    question: 'O direito de Conviver atua em toda a Grande São Paulo?',
     answer:
       'Sim, atendemos São Paulo e toda a região metropolitana. Para municípios da Grande São Paulo e interior, entre em contato para verificar disponibilidade, prazos e condições de atendimento na sua localidade.',
   },
@@ -33,7 +33,7 @@ const faqs = [
       'Sim. Advogados, defensores públicos e promotores de justiça podem entrar em contato conosco para solicitar serviços em nome de seus representados, mediante apresentação da determinação judicial ou instrumento de mandato. Temos fluxo específico para atendimento a profissionais do Direito.',
   },
   {
-    question: 'A Conviver atua em casos de alienação parental?',
+    question: 'O direito de Conviver atua em casos de alienação parental?',
     answer:
       'Sim. Atuamos em situações que envolvam determinações judiciais relacionadas a conflitos de guarda e convivência, inclusive casos em que há suspeita ou reconhecimento de alienação parental, sempre com foco no superior interesse da criança e na imparcialidade técnica.',
   },
@@ -127,10 +127,12 @@ export default function FAQ() {
               Reunimos as dúvidas mais comuns de famílias, advogados e profissionais do Judiciário. Não encontrou o que procura?
             </p>
             <a
-              href="#contato"
+              href="https://wa.me/5511940803060"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-md text-white font-bold text-sm hover:opacity-90 transition-opacity"
               style={{ backgroundColor: 'var(--navy)', fontFamily: 'var(--font-sans)' }}
-              aria-label="Entre em contato com a Conviver"
+              aria-label="Entre em contato com o direito de Conviver pelo WhatsApp"
             >
               Entre em Contato
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">

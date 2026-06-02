@@ -60,13 +60,13 @@ O site é uma **single page** com âncoras para cada seção, mais páginas inte
 - Título principal grande:
   ```
   DIREITO DE
-  CONVIVER
+  Conviver
   ```
-  Em maiúsculas, serif bold, azul marinho. A palavra "CONVIVER" maior e em destaque
+  Em maiúsculas, serif bold, azul marinho. A palavra "Conviver" maior e em destaque
 - Linha decorativa dourada sob o título
 - Subtítulo em dourado, italic: *"O direito que conecta. O respeito que protege."*
 - Parágrafo de texto:
-  > "A CONVIVER atua na promoção da convivência familiar segura e no cumprimento de determinações judiciais, oferecendo transporte assistido e intermediação de convívio com ética, imparcialidade e respeito."
+  > "O direito de Conviver atua na promoção da convivência familiar segura e no cumprimento de determinações judiciais, oferecendo transporte assistido e intermediação de convívio com ética, imparcialidade e respeito."
 - Dois botões lado a lado:
   - **[📅 Solicitar Atendimento]** — fundo azul marinho, texto branco
   - **[Saiba Mais >]** — fundo dourado, texto branco
@@ -127,7 +127,7 @@ O site é uma **single page** com âncoras para cada seção, mais páginas inte
 - Label pequena dourada: *"Quem Somos"*
 - Título: *"Compromisso com o que realmente importa: a família."*
 - Parágrafo 1:
-  > "A CONVIVER nasceu com o propósito de garantir o direito fundamental à convivência familiar, oferecendo suporte profissional às famílias e ao Poder Judiciário."
+  > "O direito de Conviver nasceu com o propósito de garantir o direito fundamental à convivência familiar, oferecendo suporte profissional às famílias e ao Poder Judiciário."
 - Parágrafo 2:
   > "Nossas ações são pautadas na ética, responsabilidade, imparcialidade e respeito, sempre priorizando o melhor interesse da criança e do adolescente."
 - Botão: `[ Conheça Nossa História > ]` — fundo azul marinho, texto branco
@@ -156,7 +156,7 @@ O site é uma **single page** com âncoras para cada seção, mais páginas inte
 - Label pequena dourada: *"Área do Judiciário"*
 - Título: *"Parceria e confiança com o Poder Judiciário"*
 - Parágrafo:
-  > "A CONVIVER é parceira de órgãos e profissionais que atuam na garantia dos direitos da criança e do adolescente."
+  > "O direito de Conviver é parceira de órgãos e profissionais que atuam na garantia dos direitos da criança e do adolescente."
 - Lista com ícone ✅ dourado:
   - Varas da Família
   - Ministério Público
@@ -227,7 +227,7 @@ O site é uma **single page** com âncoras para cada seção, mais páginas inte
 
 **Rodapé inferior:**
 - Linha divisória
-- Esquerda: `© 2024 CONVIVER — Todos os direitos reservados.`
+- Esquerda: `© 2024 Conviver — Todos os direitos reservados.`
 - Direita: `Desenvolvido com ❤️ para conexões que protegem.`
 
 **Botão flutuante fixo:** ícone do WhatsApp (verde) no canto inferior direito da tela

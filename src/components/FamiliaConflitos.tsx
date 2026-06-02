@@ -114,7 +114,9 @@ export default function FamiliaConflitos() {
         {/* Bottom CTA */}
         <div className="reveal text-center">
           <a
-            href="#contato"
+            href="https://wa.me/5511940803060"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-md font-bold text-sm hover:opacity-90 transition-opacity"
             style={{ backgroundColor: '#FFFFFF', color: 'var(--teal)', fontFamily: 'var(--font-sans)' }}
           >

@@ -42,7 +42,7 @@ export default function CTA() {
 
           {/* Right */}
           <a
-            href="https://wa.me/5511999990000"
+            href="https://wa.me/5511940803060"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Falar no WhatsApp"

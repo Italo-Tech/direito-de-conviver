@@ -2,34 +2,64 @@ import { useState, useEffect, useCallback } from 'react'
 
 const slides = [
   {
+    // Para pais e mães em processo judicial
     image: 'https://images.unsplash.com/photo-1543342384-1f1350e27861?w=1600&q=80',
-    tag: 'Famílias que Precisam de Apoio',
-    title: 'DIREITO DE CONVIVER',
-    subtitle: 'Garantindo o vínculo entre pais e filhos.',
+    audience: 'Para Pais e Mães',
+    tag: 'Convivência Familiar Garantida',
+    title: 'SEU FILHO MERECE ESTAR COM VOCÊ',
+    subtitle: 'Convivência segura, digna e sem conflito.',
     description:
-      'A CONVIVER apoia famílias em processos judiciais envolvendo crianças e adolescentes, assegurando convivência familiar segura, humanizada e em conformidade com as determinações judiciais.',
-    cta1: { label: 'Solicitar Atendimento', href: '#contato' },
-    cta2: { label: 'Saiba Mais', href: '#quem-somos' },
+      'Pai ou mãe em processo judicial? O direito de Conviver garante que você possa exercer o direito à convivência com seu filho de forma segura e respeitosa — com profissionais neutros presentes em cada encontro e transporte, sem exposição ao conflito.',
+    cta1: { label: 'Solicitar Atendimento', href: 'https://wa.me/5511940803060' },
+    cta2: { label: 'Como Funciona', href: '#como-funciona' },
   },
   {
+    // Para a criança — missão central
     image: 'https://images.unsplash.com/photo-1476703993599-0035a21b17a9?w=1600&q=80',
-    tag: 'Nossa Missão',
-    title: 'CADA CRIANÇA MERECE ESTAR COM SUA FAMÍLIA',
-    subtitle: 'Presença segura em cada reencontro.',
+    audience: 'Missão e Propósito',
+    tag: 'O Direito Fundamental da Criança',
+    title: 'TODA CRIANÇA TEM O DIREITO À FAMÍLIA',
+    subtitle: 'Protegemos o vínculo mais fundamental da infância.',
     description:
-      'Realizamos o transporte assistido e o acompanhamento de crianças durante visitas familiares, garantindo segurança e bem-estar em cada encontro — com profissionalismo e cuidado humano.',
-    cta1: { label: 'Como Funciona', href: '#como-funciona' },
-    cta2: { label: 'Falar Conosco', href: '#contato' },
+      'Nascemos da convicção de que toda criança tem o direito de manter vínculos afetivos saudáveis com ambos os pais — de forma segura e protegida. Cada atendimento é conduzido com foco exclusivo no superior interesse da criança e do adolescente.',
+    cta1: { label: 'Nossa História', href: '#historia' },
+    cta2: { label: 'Nossos Serviços', href: '#servicos' },
   },
   {
+    // Para famílias em conflito — solução prática
     image: 'https://images.unsplash.com/photo-1609220136736-443140cffec6?w=1600&q=80',
-    tag: 'Suporte Judicial',
-    title: 'FAMÍLIAS UNIDAS PELO DIREITO',
-    subtitle: 'Técnica, ética e comprometimento com a família.',
+    audience: 'Famílias em Conflito Judicial',
+    tag: 'Solução para Conflitos Familiares',
+    title: 'CONFLITO FAMILIAR? TEMOS A SOLUÇÃO',
+    subtitle: 'Neutralidade profissional em cada encontro.',
     description:
-      'Atuamos em conformidade com o Judiciário, o Ministério Público e a Defensoria Pública, sempre com o objetivo de proteger e fortalecer os vínculos familiares de crianças e adolescentes.',
+      'Quando o conflito entre os responsáveis dificulta o cumprimento das visitas, o direito de Conviver atua como estrutura imparcial — realizando entregas protegidas, transporte assistido e visitas supervisionadas com registro completo e relatório técnico ao Judiciário.',
+    cta1: { label: 'Conhecer os Serviços', href: '#servicos' },
+    cta2: { label: 'Entre em Contato', href: 'https://wa.me/5511940803060' },
+  },
+  {
+    // Para juízes, promotores e oficiais de justiça
+    image: 'https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=1600&q=80',
+    audience: 'Para Magistrados e Varas da Família',
+    tag: 'Parceiro do Poder Judiciário',
+    title: 'APOIO TÉCNICO PARA O JUDICIÁRIO',
+    subtitle: 'Relatórios precisos. Decisões efetivadas na prática.',
+    description:
+      'Elaboramos relatórios técnicos objetivos e imparciais que reduzem a necessidade de novas audiências por descumprimento de convivência. Apoiamos a execução prática das determinações já proferidas — sem substituir a decisão judicial, mas tornando-a real e efetiva.',
     cta1: { label: 'Área do Judiciário', href: '#judiciario' },
-    cta2: { label: 'Entre em Contato', href: '#contato' },
+    cta2: { label: 'Benefícios ao Judiciário', href: '#judiciario' },
+  },
+  {
+    // Para promotores, defensores, rede de proteção
+    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&q=80',
+    audience: 'Para Promotores e Rede de Proteção',
+    tag: 'Proteção Integral à Criança',
+    title: 'PROTEÇÃO INTEGRAL EM CADA ATENDIMENTO',
+    subtitle: 'Atuação em conformidade com o ECA e a legislação vigente.',
+    description:
+      'Apoiamos o Ministério Público, a Defensoria Pública e os Conselhos Tutelares na garantia dos direitos fundamentais de crianças e adolescentes. Cada atendimento é documentado e reportado, fortalecendo a rede de proteção e reduzindo situações de risco.',
+    cta1: { label: 'Benefícios ao MP', href: '#ministerio-publico' },
+    cta2: { label: 'Falar Conosco', href: 'https://wa.me/5511940803060' },
   },
 ]
 
@@ -81,7 +111,20 @@ export default function Hero() {
           className="w-full max-w-3xl text-center"
           style={{ animation: 'heroContentEnter 0.65s ease forwards' }}
         >
+          {/* Audience badge */}
+          <span
+            className="inline-block text-xs font-semibold uppercase tracking-widest mb-3 px-3 py-1 rounded-full"
+            style={{
+              color: 'rgba(255,255,255,0.75)',
+              border: '1px solid rgba(255,255,255,0.3)',
+              fontFamily: 'var(--font-sans)',
+            }}
+          >
+            {slide.audience}
+          </span>
+
           {/* Tag badge */}
+          <br />
           <span
             className="inline-block text-xs sm:text-sm font-bold uppercase tracking-widest mb-5 px-4 py-1.5 rounded-full"
             style={{
@@ -143,6 +186,7 @@ export default function Hero() {
           <div className="flex gap-3 justify-center flex-wrap">
             <a
               href={slide.cta1.href}
+              {...(slide.cta1.href.startsWith('http') ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
               className="px-6 py-3 rounded-md font-bold text-sm hover:opacity-90 transition-opacity"
               style={{
                 backgroundColor: 'var(--gold)',
@@ -154,6 +198,7 @@ export default function Hero() {
             </a>
             <a
               href={slide.cta2.href}
+              {...(slide.cta2.href.startsWith('http') ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
               className="px-6 py-3 rounded-md font-bold text-sm hover:bg-white hover:text-[#1A2B5F] transition-colors"
               style={{
                 border: '2px solid rgba(255,255,255,0.75)',

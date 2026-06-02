@@ -42,7 +42,7 @@ export default function About() {
               className="reveal reveal-delay-2 text-sm leading-relaxed mb-4"
               style={{ color: 'var(--gray-text)', fontFamily: 'var(--font-sans)' }}
             >
-              A CONVIVER nasceu para apoiar famílias que enfrentam processos judiciais envolvendo crianças e adolescentes. Garantimos o direito fundamental à convivência familiar com suporte profissional, humanizado e especializado.
+              O direito de Conviver nasceu para apoiar famílias que enfrentam processos judiciais envolvendo crianças e adolescentes. Garantimos o direito fundamental à convivência familiar com suporte profissional, humanizado e especializado.
             </p>
             <p
               className="reveal reveal-delay-2 text-sm leading-relaxed mb-8"
@@ -52,8 +52,10 @@ export default function About() {
             </p>
 
             <a
-              href="#contato"
-              aria-label="Entre em contato com a Conviver"
+              href="https://wa.me/5511940803060"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Fale com a Conviver pelo WhatsApp"
               className="reveal reveal-delay-3 flex items-center gap-2 px-6 py-3 rounded-md text-white font-bold text-sm w-fit hover:opacity-90 transition-opacity"
               style={{ backgroundColor: 'var(--navy)', fontFamily: 'var(--font-sans)' }}
             >
