@@ -48,7 +48,7 @@ export default function About() {
               className="reveal reveal-delay-2 text-sm leading-relaxed mb-8"
               style={{ color: 'var(--gray-text)', fontFamily: 'var(--font-sans)' }}
             >
-              Nossas ações são pautadas na ética, responsabilidade, imparcialidade e respeito — sempre priorizando o superior interesse da criança e o fortalecimento dos vínculos familiares.
+              Nossas ações são pautadas na ética, responsabilidade, imparcialidade e respeito sempre priorizando o superior interesse da criança e o fortalecimento dos vínculos familiares.
             </p>
 
             <a

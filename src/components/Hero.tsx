@@ -10,7 +10,7 @@ const slides = [
     title: 'SEU FILHO MERECE ESTAR COM VOCÊ',
     subtitle: 'Convivência segura, digna e sem conflito.',
     description:
-      'Pai ou mãe em processo judicial? O direito de Conviver garante que você possa exercer o direito à convivência com seu filho de forma segura e respeitosa — com profissionais neutros presentes em cada encontro e transporte, sem exposição ao conflito.',
+      'Pai ou mãe em processo judicial? O direito de Conviver garante que você possa exercer o direito à convivência com seu filho de forma segura e respeitosa com profissionais neutros presentes em cada encontro e transporte, sem exposição ao conflito.',
     cta1: { label: 'Solicitar Atendimento', href: 'https://wa.me/5511940803060' },
     cta2: { label: 'Como Funciona', href: '#como-funciona' },
   },
@@ -22,7 +22,7 @@ const slides = [
     title: 'TODA CRIANÇA TEM O DIREITO À FAMÍLIA',
     subtitle: 'Protegemos o vínculo mais fundamental da infância.',
     description:
-      'Nascemos da convicção de que toda criança tem o direito de manter vínculos afetivos saudáveis com ambos os pais — de forma segura e protegida. Cada atendimento é conduzido com foco exclusivo no superior interesse da criança e do adolescente.',
+      'Nascemos da convicção de que toda criança tem o direito de manter vínculos afetivos saudáveis com ambos os pais de forma segura e protegida. Cada atendimento é conduzido com foco exclusivo no superior interesse da criança e do adolescente.',
     cta1: { label: 'Nossa História', href: '#historia' },
     cta2: { label: 'Nossos Serviços', href: '#servicos' },
   },
@@ -34,7 +34,7 @@ const slides = [
     title: 'CONFLITO FAMILIAR? TEMOS A SOLUÇÃO',
     subtitle: 'Neutralidade profissional em cada encontro.',
     description:
-      'Quando o conflito entre os responsáveis dificulta o cumprimento das visitas, o direito de Conviver atua como estrutura imparcial — realizando entregas protegidas, transporte assistido e visitas supervisionadas com registro completo e relatório técnico ao Judiciário.',
+      'Quando o conflito entre os responsáveis dificulta o cumprimento das visitas, o direito de Conviver atua como estrutura imparcial realizando entregas protegidas, transporte assistido e visitas supervisionadas com registro completo e relatório técnico ao Judiciário.',
     cta1: { label: 'Conhecer os Serviços', href: '#servicos' },
     cta2: { label: 'Entre em Contato', href: 'https://wa.me/5511940803060' },
   },
@@ -46,7 +46,7 @@ const slides = [
     title: 'APOIO TÉCNICO PARA O JUDICIÁRIO',
     subtitle: 'Relatórios precisos. Decisões efetivadas na prática.',
     description:
-      'Elaboramos relatórios técnicos objetivos e imparciais que reduzem a necessidade de novas audiências por descumprimento de convivência. Apoiamos a execução prática das determinações já proferidas — sem substituir a decisão judicial, mas tornando-a real e efetiva.',
+      'Elaboramos relatórios técnicos objetivos e imparciais que reduzem a necessidade de novas audiências por descumprimento de convivência. Apoiamos a execução prática das determinações já proferidas sem substituir a decisão judicial, mas tornando-a real e efetiva.',
     cta1: { label: 'Área do Judiciário', href: '#judiciario' },
     cta2: { label: 'Benefícios ao Judiciário', href: '#judiciario' },
   },

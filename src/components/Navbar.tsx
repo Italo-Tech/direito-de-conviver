@@ -76,7 +76,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-center h-20 gap-1">
 
-          {/* Logo — visible only when scrolled */}
+          {/* Logo — desktop: visible only when scrolled */}
           <a
             href="#inicio"
             className="hidden lg:flex absolute left-4 items-center gap-2 transition-all duration-300"
@@ -89,6 +89,20 @@ export default function Navbar() {
               src="/logo-1-sem-fundo.png"
               alt="Conviver"
               className="h-12 w-auto"
+              onError={(e) => { ; (e.currentTarget as HTMLImageElement).style.display = 'none' }}
+            />
+          </a>
+
+          {/* Logo — mobile: always visible */}
+          <a
+            href="#inicio"
+            className="lg:hidden absolute left-4 flex items-center gap-2 transition-all duration-300"
+          >
+            <img
+              src="/logo-1-sem-fundo.png"
+              alt="Conviver"
+              className="h-10 w-auto transition-all duration-300"
+              style={{ filter: scrolled ? 'none' : 'brightness(0) invert(1)' }}
               onError={(e) => { ; (e.currentTarget as HTMLImageElement).style.display = 'none' }}
             />
           </a>

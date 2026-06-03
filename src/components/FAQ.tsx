@@ -11,7 +11,7 @@ const faqs = [
   {
     question: 'Quais documentos são necessários para contratar os serviços?',
     answer:
-      'É necessário apresentar a determinação judicial ou o acordo homologado que autoriza o serviço, além de documentos de identificação das partes envolvidas. Em casos urgentes, entre em contato conosco — nossa equipe orienta sobre toda a documentação necessária para cada situação.',
+      'É necessário apresentar a determinação judicial ou o acordo homologado que autoriza o serviço, além de documentos de identificação das partes envolvidas. Em casos urgentes, entre em contato conosco, nossa equipe orienta sobre toda a documentação necessária para cada situação.',
   },
   {
     question: 'O que são visitas supervisionadas e como funcionam?',

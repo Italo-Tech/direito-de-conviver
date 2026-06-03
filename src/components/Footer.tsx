@@ -83,8 +83,8 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram do Direito de Conviver"
-                className="w-9 h-9 rounded-full flex items-center justify-center transition-colors hover:bg-white/20"
-                style={{ backgroundColor: 'rgba(255,255,255,0.1)', color: '#E1306C' }}
+                className="w-9 h-9 bg-gray-200 rounded-full flex items-center justify-center transition-colors hover:bg-white/20"
+                style={{ color: '#E1306C' }}
               >
                 <InstagramIcon />
               </a>
@@ -93,8 +93,8 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="YouTube do Direito de Conviver"
-                className="w-9 h-9 rounded-full flex items-center justify-center transition-colors hover:bg-white/20"
-                style={{ backgroundColor: 'rgba(255,255,255,0.1)', color: '#FF0000' }}
+                className="w-9 h-9 bg-gray-200 rounded-full flex items-center justify-center transition-colors hover:bg-white/20"
+                style={{ color: '#FF0000' }}
               >
                 <YouTubeIcon />
               </a>

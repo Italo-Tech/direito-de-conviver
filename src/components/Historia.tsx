@@ -26,7 +26,7 @@ const contextCards = [
       </svg>
     ),
     title: 'A decisão existe, a execução falha',
-    text: 'Em muitos casos a decisão judicial já existe, mas sua execução prática encontra obstáculos gerados pelo conflito entre os responsáveis — aumentando a litigiosidade e o sofrimento da criança.',
+    text: 'Em muitos casos a decisão judicial já existe, mas sua execução prática encontra obstáculos gerados pelo conflito entre os responsáveis, aumentando a litigiosidade e o sofrimento da criança.',
   },
 ]
 
@@ -63,21 +63,21 @@ export default function Historia() {
               className="reveal reveal-delay-2 text-sm leading-relaxed"
               style={{ color: 'var(--gray-text)', fontFamily: 'var(--font-sans)' }}
             >
-              O Projeto Direito de <span className="brand-name">Conviver</span> nasceu da experiência real de um pai chamado <strong>Miguel</strong>. Sua história representa a realidade enfrentada diariamente por milhares de pais e famílias nas Varas da Família de todo o Brasil: conflitos familiares, falsas acusações, alienação parental, descumprimento de decisões judiciais e medidas protetivas que impactam diretamente a convivência familiar — uma realidade muitas vezes silenciosa.
+              O Projeto Direito de <span className="brand-name">Conviver</span> nasceu da experiência real de um pai chamado <strong>Miguel</strong>. Sua história representa a realidade enfrentada diariamente por milhares de pais e famílias nas Varas da Família de todo o Brasil: conflitos familiares, falsas acusações, alienação parental, descumprimento de decisões judiciais e medidas protetivas que impactam diretamente a convivência familiar uma realidade muitas vezes silenciosa.
             </p>
 
             <p
               className="reveal reveal-delay-2 text-sm leading-relaxed"
               style={{ color: 'var(--gray-text)', fontFamily: 'var(--font-sans)' }}
             >
-              Foi nesse contexto que Miguel vivenciou a interrupção abrupta da convivência com seu filho. Uma medida protetiva alterou completamente sua vida: a rotina mudou, o convívio foi interrompido, o equilíbrio emocional foi abalado, e a distância imposta entre pai e filho trouxe desafios profundos e a difícil sensação de impotência diante de um sistema complexo.
+              Foi nesse contexto que Miguel vivenciou a interrupção abrupta da convivência com seu filho. Uma medida protetiva alterou completamente sua vida: a rotina mudou, o equilíbrio emocional foi abalado, e a distância imposta entre pai e filho trouxe desafios profundos e a difícil sensação de impotência diante de um sistema complexo.
             </p>
 
             <p
               className="reveal reveal-delay-3 text-sm leading-relaxed"
               style={{ color: 'var(--gray-text)', fontFamily: 'var(--font-sans)' }}
             >
-              Durante essa trajetória, Miguel compreendeu que o sofrimento não era apenas seu. <strong>Milhares de crianças e adolescentes também são privados do direito fundamental de manter vínculos afetivos saudáveis</strong> com ambos os pais e suas famílias. Foi dessa reflexão que surgiu o Projeto Direito de <span className="brand-name">Conviver</span> — transformando dor em propósito, para que nenhuma criança seja privada do direito de conviver com sua família.
+              Durante essa trajetória, Miguel compreendeu que o sofrimento não era apenas seu. <strong>Milhares de crianças e adolescentes também são privados do direito fundamental de manter vínculos afetivos saudáveis</strong> com ambos os pais e suas famílias. Foi dessa reflexão que surgiu o Projeto Direito de <span className="brand-name">Conviver</span> transformando dor em propósito, para que nenhuma criança seja privada do direito de conviver com sua família.
             </p>
 
             {/* Objective list */}
@@ -158,7 +158,7 @@ export default function Historia() {
                 className="text-xs leading-relaxed"
                 style={{ color: 'var(--gray-text)', fontFamily: 'var(--font-sans)' }}
               >
-                O projeto encontra fundamento no ECA, no Código Civil e na legislação de proteção integral à criança. Não substitui decisões judiciais nem exerce função jurisdicional — apoia a <strong>execução prática</strong> das determinações já estabelecidas pelas autoridades competentes.
+                O projeto encontra fundamento no ECA, no Código Civil e na legislação de proteção integral à criança. Não substitui decisões judiciais nem exerce função jurisdicional, apoia a <strong>execução prática</strong> das determinações já estabelecidas pelas autoridades competentes.
               </p>
             </div>
           </div>
