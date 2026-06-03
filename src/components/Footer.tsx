@@ -98,6 +98,7 @@ export default function Footer() {
               >
                 <YouTubeIcon />
               </a>
+              {/* 
               <a
                 href="https://www.facebook.com/profile.php?id=61589489951657"
                 target="_blank"
@@ -108,6 +109,7 @@ export default function Footer() {
               >
                 <FacebookIcon />
               </a>
+              */}
             </div>
           </div>
 
@@ -209,7 +211,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Divider */}
+        {/* Bottom bar */}
         <div
           className="border-t pt-8 flex flex-col md:flex-row justify-between items-center gap-4"
           style={{ borderColor: 'rgba(255,255,255,0.1)' }}
@@ -217,8 +219,31 @@ export default function Footer() {
           <p className="text-xs" style={{ color: '#64748b', fontFamily: 'var(--font-sans)' }}>
             © {new Date().getFullYear()} <span className="brand-name">CONVIVER</span> — Todos os direitos reservados.
           </p>
-          <p className="text-xs" style={{ color: '#64748b', fontFamily: 'var(--font-sans)' }}>
-            Desenvolvido com ❤️ para conexões que protegem.
+          <p className="text-xs flex items-center gap-1.5" style={{ color: '#64748b', fontFamily: 'var(--font-sans)' }}>
+            Desenvolvido por{' '}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://liondev.com.br"
+              className="inline-flex items-center space-x-2 bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-3 py-1 rounded-lg font-semibold hover:from-yellow-500 hover:to-orange-600 transition-all duration-300 transform hover:scale-105 shadow-lg"
+            >
+              <div className="w-6 h-6 p-0.5 bg-black/80 rounded-full flex items-center justify-center overflow-hidden">
+                <img
+                  src="/lion-dev.png"
+                  alt="Lion Dev"
+                  className="w-full h-full object-contain"
+                  onError={(e) => {
+                    const img = e.currentTarget
+                    img.style.display = 'none'
+                    const fallback = img.nextElementSibling as HTMLElement | null
+                    if (fallback) fallback.style.display = 'block'
+                  }}
+                />
+                <span className="text-xs font-bold text-yellow-400 hidden">L</span>
+              </div>
+              <span>Lion Dev</span>
+            </a>{' '}
+            para transformar sonhos em realidade.
           </p>
         </div>
       </div>
