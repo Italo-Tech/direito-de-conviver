@@ -79,7 +79,7 @@ export default function Navbar() {
           {/* Logo — desktop: visible only when scrolled */}
           <a
             href="#inicio"
-            className="hidden lg:flex absolute left-4 items-center gap-2 transition-all duration-300"
+            className="hidden min-[1200px]:flex absolute left-4 items-center gap-2 transition-all duration-300"
             style={{
               opacity: scrolled ? 1 : 0,
               pointerEvents: scrolled ? 'auto' : 'none',
@@ -96,7 +96,7 @@ export default function Navbar() {
           {/* Logo — mobile: always visible */}
           <a
             href="#inicio"
-            className="lg:hidden absolute left-4 flex items-center gap-2 transition-all duration-300"
+            className="min-[1200px]:hidden absolute left-4 flex items-center gap-2 transition-all duration-300"
           >
             <img
               src="/logo-1-sem-fundo.png"
@@ -108,7 +108,7 @@ export default function Navbar() {
           </a>
 
           {/* Desktop Nav — centered */}
-          <div className="hidden lg:flex items-center gap-1">
+          <div className="hidden min-[1200px]:flex items-center gap-1">
             <a href="#inicio" className={linkClass} style={linkStyle}>
               Início
             </a>
@@ -224,7 +224,7 @@ export default function Navbar() {
           </div>
 
           {/* Social media — absolute right, desktop only */}
-          <div className="hidden lg:flex absolute right-4 items-center gap-2">
+          <div className="hidden min-[1200px]:flex absolute right-4 items-center gap-2">
             {[
               { href: 'https://www.instagram.com/direitodeconviver/', label: 'Instagram', icon: <InstagramIcon /> },
               { href: 'https://www.youtube.com/@DireitodeConviver', label: 'YouTube', icon: <YouTubeIcon /> },
@@ -249,7 +249,7 @@ export default function Navbar() {
 
           {/* Mobile hamburger (absolute so it doesn't break centering) */}
           <button
-            className="lg:hidden absolute right-4 p-2 rounded-md transition-colors duration-300"
+            className="min-[1200px]:hidden absolute right-4 p-2 rounded-md transition-colors duration-300"
             style={{ color: scrolled ? 'var(--navy)' : '#FFFFFF' }}
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Abrir menu"
@@ -267,7 +267,7 @@ export default function Navbar() {
 
         {/* Mobile drawer */}
         {menuOpen && (
-          <div className="lg:hidden border-t border-gray-100 py-4 flex flex-col gap-1 bg-white">
+          <div className="min-[1200px]:hidden border-t border-gray-100 py-4 flex flex-col gap-1 bg-white">
             {[
               { label: 'Início', href: '#inicio' },
               { label: 'Quem Somos', href: '#quem-somos' },

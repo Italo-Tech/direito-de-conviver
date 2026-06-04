@@ -70,7 +70,7 @@ export default function Historia() {
               className="reveal reveal-delay-2 text-sm leading-relaxed"
               style={{ color: 'var(--gray-text)', fontFamily: 'var(--font-sans)' }}
             >
-              Foi nesse contexto que Miguel vivenciou a interrupção abrupta da convivência com seu filho. Uma medida protetiva alterou completamente sua vida: a rotina mudou, o equilíbrio emocional foi abalado, e a distância imposta entre pai e filho trouxe desafios profundos e a difícil sensação de impotência diante de um sistema complexo.
+              Foi nesse contexto que Miguel vivenciou a interrupção abrupta da convivência com sua filha. Uma medida protetiva alterou completamente sua vida: a rotina mudou, o equilíbrio emocional foi abalado, e a distância imposta entre pai e filha trouxe desafios profundos e a difícil sensação de impotência diante de um sistema complexo.
             </p>
 
             <p
